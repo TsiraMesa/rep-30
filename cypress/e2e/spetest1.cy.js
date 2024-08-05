@@ -68,3 +68,4 @@ cy.get('[data-qa="account-deleted"]') .should("be.visible")
 cy.get('[data-qa="continue-button"]').click()
 })
 })
+
