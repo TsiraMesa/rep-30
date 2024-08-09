@@ -1,0 +1,20 @@
+{
+    "name": "tsirrA",
+    "email": "cimesablishvili@gmail.com",
+    "password":"kontantine1123",
+    "days": 11 ,
+    "months":"July",
+    "years": "1990" ,
+    "firstName":"tsira",
+    "lastName":"mesablishvili",
+    "company":"JRS",
+    "address":"Tbilisi",
+    "address2": "Tbilisi2",
+    "country":"India",
+    "state":"Tbil",
+    "city":"Telavi",
+    "zipcode":5248,
+    "mobileNumber":"557586963"
+   
+  }
+      

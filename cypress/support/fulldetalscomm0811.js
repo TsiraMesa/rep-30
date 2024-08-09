@@ -1,0 +1,12 @@
+Cypress.Commands.add("fullDetails", (firstName,lastName,company,address,address2,country,state,city,zipcode,mobileNumber) => {
+    cy.get('[data-qa="first_name"]').type (firstName)
+    cy.get('[data-qa="last_name"]').type (lastName)
+    cy.get('[data-qa="company"]').type (company)
+    cy.get('[data-qa="address"]').type (address)
+    cy.get('[data-qa="address2"]').type (address2)
+    cy.get('[data-qa="country"]').select (country)
+    cy.get('[data-qa="state"]').type (state)
+    cy.get('[data-qa="city"]').type (city)
+    cy.get('[data-qa="zipcode"]').type (zipcode)
+    cy.get('[data-qa="mobile_number"]').type (mobileNumber)
+})

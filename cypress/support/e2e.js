@@ -15,6 +15,10 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-
+import './newcomands0811'
+import './entercommand0811'
+import './detailscomm0811'
+import './fulldetalscomm0811'
+import './corectcommand'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
