@@ -10,13 +10,6 @@ describe('example', () => {
   it('step1', ()  => {
   
 cy.visit("https://automationexercise.com")
-//cy.enter(user.name, user.email)
-//cy.details(user.password, user.days, user.months, user.years)
-//cy.fullDetails(user.firstName, user.lastName, user.company, user.address, user.address2, user.country, 
-  //user.state, user.city,user.zipcode,user.mobileNumber)
-
-//cy.newLog("ciramesa@gmail.com")
-//cy.newLog(email)
 
 //1. Launch browser
 //2. Navigate to url 'http://automationexercise.com'
@@ -58,4 +51,4 @@ cy.get('[data-qa="continue-button"]').click()
 //16. Verify that 'Logged in as username' is visible
 cy.contains(" Logged in as tsirrA").should("be.visible")
   })
-})
+}) // kkkk

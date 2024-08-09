@@ -37,4 +37,4 @@ describe('example', () => {
         //10. Verify that 'ACCOUNT DELETED!' is visible
         cy.contains("Account Deleted!").should("be.visible")
     })
-})
+})//ss

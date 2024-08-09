@@ -20,4 +20,4 @@ cy.inCorectLogin(user2.email,user2.password)
 
 //8. Verify error 'Your email or password is incorrect!' is visible 
 cy.contains("Your email or password is incorrect!").should("be.visible")
-    })})
+    })}) //s
