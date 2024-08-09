@@ -1,5 +1,5 @@
 
-import user2 from "../fixtures/incorectuser.json"
+import user2 from "../fixtures/incorectuser.json" 
 describe('example', () => {
     before(() => {
         cy.visit("https://automationexercise.com")
