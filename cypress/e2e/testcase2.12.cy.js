@@ -5,7 +5,7 @@ describe('example', () => {
        cy.loginUp(user1.name, user1.email, user1.password, user1.days, user1.months, user1.years, user1.firstName,
         user1.lastName, user1.company, user1.address, user1.address2,   
         user1.country, user1.state, user1.city, user1.zipcode, user1.mobileNumber)
-    })
+    }) 
     it('step2', () => {
        
 
