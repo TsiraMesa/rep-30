@@ -28,7 +28,7 @@ cy.get('[data-qa="signup-button"]').click()
 //8. Verify that 'ENTER ACCOUNT INFORMATION' is visible
 cy.contains("Enter Account Information").should("be.visible")
 
-//9. Fill details: Title, Name, Email, Password, Date of birth
+//9. Fill details: Title, Name, Email, Password, Date of birth 
 cy.details(user.password, user.days, user.months, user.years)
 
 
