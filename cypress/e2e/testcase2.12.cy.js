@@ -15,7 +15,7 @@ describe('example', () => {
         //1. Launch browser
         //2. Navigate to url 'http://automationexercise.com'
         //3. Verify that home page is visible successfully
-        cy.contains("AutomationExercise").should("be.visible")
+        cy.contains("AutomationExercise").should("be.visible") 
         //4. Click on 'Signup / Login' button
         cy.get('.shop-menu > .nav > :nth-child(4)').click()
 
